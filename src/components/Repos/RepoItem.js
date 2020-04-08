@@ -1,5 +1,5 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 const RepoItem = ({ repo }) => {
   return (
@@ -12,7 +12,7 @@ const RepoItem = ({ repo }) => {
 };
 
 RepoItem.protoTypes = {
-  repo: PropTypes.object.isRequired
+  repo: PropTypes.object.isRequired,
 };
 
 export default RepoItem;
